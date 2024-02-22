@@ -1,0 +1,14 @@
+{
+  "name": "arma_rcon-node",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "nodemon src/app.js",
+	"build": "nodemon build.js"
+  }
+}
